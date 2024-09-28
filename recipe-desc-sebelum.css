@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-atas
+{
+    height: 75px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+.navbar-logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-atas-kanan
+{
+    display: flex;
+    float: left;
+}
+
+.navbar-atas-kanan p
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-atas-kiri
+{
+    float: right;
+    padding-left: 50px;
+}
+
+.login
+{
+    background-color: rgb(227, 207, 207);
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.login:hover
+{
+    background-color: grey;
+    color: white;
+}
+.register
+{
+    background-color: rgb(227, 207, 207);
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 120px;
+}
+.register:hover
+{
+    background-color: grey;
+    color: white;
+}
+
+.navbar-bawah
+{
+    height: 50px;
+    background-color: rgb(227, 207, 207);
+    line-height: 50px;
+    padding-left: 75px;
+}
+
+
+.navbar-isi
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-isi-sekarang{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-isi:hover
+{
+    color: white;
+    transition: 100ms;
+}
+
+.home-pertama
+{
+    margin-left: 75px;
+}
+
+.colletions-kunci
+{
+    color: grey;
+    text-decoration:line-through;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.colletions-kunci:hover
+{
+    color: rgb(255, 0, 0)
+}
+
+.content {
+    width: 100%;
+    display: block;
+    padding-top: 150px;
+}
+
+.box {
+    width: 100%;
+    height: 600px;
+    background-color: #DECFCF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    width: 550px;
+    height: auto;
+    margin-top: -90px;
+}
+
+.box .name {
+    font-size: 3em;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box p {
+    margin-top: -15px;
+    font-size: 1.7em;
+    color: #999494;
+}
+
+.kel1 {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+
+.kel2 {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    padding-right: 10px;
+    color: #999494;
+}
+
+.rating {
+    display: flex;
+    padding-left: 5px;
+}
+
+.rating img {
+    width: 50px;
+    height: 50px;
+}
+
+.rating p {
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.heart {
+    display: flex;
+    padding-top: 60px;
+}
+
+.heart img {
+    width: 60px;
+    height: 35px;
+}
+
+.heart p {
+    padding-left: 4px;
+    padding-top: 6px;
+}
+
+.click{
+    border: none;
+    background-color: #DECFCF;
+}
+
+.fav{
+    border: none;
+    background-color: #DECFCF;
+}
+
+.fav img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.content h1
+{
+    padding: 0;
+    margin: 0;
+}
+.desctext {
+    padding: 20px;
+}
+
+.Ingredients h1 {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.Ingredients .title1 {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.Ingredients li {
+    margin-left: 20px;
+}
+
+.Ingredients p {
+    margin-left: 20px;
+}
+
+.Ingredients .title2 {
+    padding-top: 20px;
+}
+
+.Ingredients .title3 {
+    padding-top: 20px;
+}
+
+.Ingredients{
+    margin-left: 100px;
+}
+
+.box2 {
+    width: 500px;
+    height: 560px;
+    background-color: #DECFCF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+    left: 1000px;
+    top: 840px;
+
+}
+
+.procedure {
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+
+.subtitle {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.procedure p {
+    padding-bottom: 5px;
+}
+
+.video {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video p {
+    font-size: 2em;
+}
+
+.box3 {
+    width: 900px;
+    height: 200px;
+    background-color: #DECFCF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.kiriatas{
+    float: left;
+}
+
+.kanan{
+    float: right;
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+.kanan > h5{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #8B8989;
+    position: absolute;
+}
+
+.aboutus, .aboutus1{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.aboutus > h1{
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aboutus > h4{
+    padding-top: 56px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'La Belle Aurore';
+}
+
+.aboutus1 > h5{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.aboutus > img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus1 > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer > h5{
+    font-size: 30px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 207, 207);
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.contactusLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email, .wa, .ig{
+    width: 40px;
+    height: 40px;
+}
+
+.content
+{
+   padding-top: 150px;
+}
+
+.kotak-about
+{
+    border: 0.5px solid black;
+}
+
+.gambar-about
+{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+.kotak-about
+{
+    display: flex;
+    padding: 0px 50px;
+    vertical-align: middle;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.tulisan-atas
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.tulisan-tengah
+{
+    font-size: 20px;
+    color: gray;
+}
+.tulisan-bawah
+{
+    font-size: 30px;
+    color: black;
+}
+.tulisan-about
+{
+    margin-top: 30px;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.content{
+    background-color: rgba(63, 63, 63, 0.138);
+    display: flex;
+    flex-direction: row;
+}
+
+.kotakkiri{
+    background-color: rgb(227, 207, 207);
+    width: 48%;
+    height: 792px;
+}
+
+.kotakkiri > img{
+    padding-left: 230px;
+    padding-top: 220px;
+}
+
+.kotakkiri > h4{
+    padding-top: 230px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.oval{
+    width: 175px;
+    height: 792px;
+    background-color: rgb(227, 207, 207);
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 630px;
+    position: fixed;
+}
+
+.kotakkanan{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(227, 207, 207);
+    margin-left: 200px;
+    margin-top: 45px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 15px rgb(193, 193, 193); 
+}
+
+form > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 10px;
+}
+
+label{
+    padding-right: 240px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #5d5d5d;
+}
+
+input{
+    width: 525px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: rgb(193, 193, 193);
+}
+
+.acc{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.acc > a{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.acc > a:hover{
+    color: white;
+}
+
+.buttonlogin{
+    background-color: #CDA0A0;
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;    
+    text-decoration: none;
+}
+
+input::placeholder{
+    color: rgb(176, 176, 176);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form{
+    align-items: center;
+}
+
+.buttonlogin:hover{
+    color: white;
+    background-color: #9e7b7b;
+}
+
+.guest{
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.guest:hover{
+    color: white;
+}
+
+.orlogin{
+    color: rgb(176, 176, 176);
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.gariskiri{
+    background-color: rgb(176, 176, 176);
+    width: 175px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.gariskanan{
+    margin-top: 10px;
+    background-color: rgb(176, 176, 176);
+    width: 175px;
+    height: 3px;
+}
+
+.or{
+    margin-top: 20px;
+    
+}
+
+.orcontent{
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 525px;
+    height: 50px;
+    background-color: white;
+}
+
+.orcontent:hover{
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+
+.orcontent > img{
+    width: 30px;
+    height: 30px;
+}
+

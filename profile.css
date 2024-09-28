@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-atas
+{
+    height: 75px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.navbar-logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-atas-kanan
+{
+    display: flex;
+    float: left;
+}
+
+.navbar-atas-kanan p
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-atas-kiri
+{
+    float: right;
+    padding-left: 50px;
+}
+
+
+
+.navbar-bawah
+{
+    height: 50px;
+    background-color: rgb(227, 207, 207);
+    line-height: 50px;
+    padding-left: 75px;
+}
+
+
+.navbar-isi
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-kontak
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.navbar-kontak-hover
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+
+.navbar-atas-kiri:hover .navbar-kontak-hover
+{
+    display: inline;
+}
+
+.navbar-isi:hover
+{
+    color: white;
+    transition: 100ms;
+}
+
+.home-pertama
+{
+    margin-left: 75px;
+}
+
+.colletions-kunci
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* padding: 0px 10px; */
+    pointer-events: none;
+}
+
+.colletions-kunci:hover
+{
+    color: rgb(255, 0, 0)
+}
+
+/* =============chef 1============================ */
+
+.content
+{
+    width: 100%;
+    background-color: rgb(227, 207, 207);
+}
+
+.judul
+{
+    padding: 50px;
+    padding-top: 150px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.profile-tengah
+{
+    justify-content: space-evenly;
+    margin: 0 5%;
+    gap: 50px;
+    display: flex;
+}
+
+.kotak{
+    border-radius: 30px;
+    width: 900px;
+    height: 675px;
+    background-color: white;
+    text-align: center;
+}
+.foto-profile
+{
+    width: 750px;
+    height: 675px;
+}
+
+.info-akun
+{
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.kotak-kecil
+{
+    background-color: rgb(227, 207, 207);
+    margin: 0 10%;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.account-gambar
+{
+    width: 45px;
+    height: 55px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.account-tulisan
+{
+    line-height: 75px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.link
+{
+    margin-top: 100px;
+    display: block;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 50px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.link-dalam{
+    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    gap: 400px; 
+    justify-content: center;
+}
+
+.link-dalam a
+{   
+    text-align: center;
+    text-decoration: 0;
+    font-size: 30px;
+    color: black;
+}
+
+.link-dalam a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.a1
+{
+    padding-right: 50px;
+}
+
+.a3
+{
+    padding-left: 20px;
+}
+
+.a7
+{
+    padding-right: 20px;  
+}
+
+.log-out
+{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 70px;
+}
+
+.log-out:hover
+{
+    background-color: grey;
+    color: white;
+    border: none;
+}

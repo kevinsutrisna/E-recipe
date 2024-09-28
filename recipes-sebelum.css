@@ -1,0 +1,403 @@
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-atas
+{
+    height: 75px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.navbar-logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-atas-kanan
+{
+    display: flex;
+    float: left;
+}
+
+.navbar-atas-kanan p
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-atas-kiri
+{
+    float: right;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.login
+{
+    background-color: rgb(227, 207, 207);
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.login:hover
+{
+    background-color: grey;
+    color: white;
+}
+.register
+{
+    background-color: rgb(227, 207, 207);
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 120px;
+}
+.register:hover
+{
+    background-color: grey;
+    color: white;
+}
+
+.navbar-bawah
+{
+    height: 50px;
+    background-color: rgb(227, 207, 207);
+    line-height: 50px;
+    padding-left: 75px;
+}
+
+
+.navbar-isi
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-isi-sekarang{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+
+
+.navbar-isi:hover
+{
+    color: white;
+    transition: 100ms;
+}
+
+.home-pertama
+{
+    margin-left: 75px;
+}
+
+.colletions-kunci
+{
+    color: grey;
+    text-decoration:line-through;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.colletions-kunci:hover
+{
+    color: rgb(255, 0, 0)
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.content .text1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.content .text2 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.foods {
+    display: flex;
+    margin: 2% 14%;
+    column-gap: 30px;
+    padding-top: 30px;
+}
+
+.vege img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.vege p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.fruits img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.fruits p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.legumes img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.legumes p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.legumes2 {
+    margin-top: -30px;
+}
+
+.foods2 {
+    display: flex;
+    margin: 2% 14%;
+    column-gap: 30px;
+    padding-top: 30px;
+}
+
+.meat img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.meat p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.fish img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.fish p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.dairy img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.dairy p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.egg-css {
+    display: flex;
+    margin: 2% 39%;
+    column-gap: 30px;
+    padding-top: 45px;
+}
+
+.egg img {
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.egg p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.kiriatas{
+    float: left;
+}
+
+.kanan{
+    float: right;
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+.kanan > h5{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #8B8989;
+    position: absolute;
+}
+
+.aboutus, .aboutus1{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.aboutus > h1{
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aboutus > h4{
+    padding-top: 56px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'La Belle Aurore';
+}
+
+.aboutus1 > h5{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.aboutus > img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus1 > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer > h5{
+    font-size: 30px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 207, 207);
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.contactusLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email, .wa, .ig{
+    width: 40px;
+    height: 40px;
+}
+
+.content
+{
+   padding-top: 150px;
+}
+
+.kotak-about
+{
+    border: 0.5px solid black;
+}
+
+.gambar-about
+{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+.kotak-about
+{
+    display: flex;
+    padding: 0px 50px;
+    vertical-align: middle;
+}
+
+.tulisan-atas
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.tulisan-tengah
+{
+    font-size: 20px;
+    color: gray;
+}
+.tulisan-bawah
+{
+    font-size: 30px;
+    color: black;
+}
+.tulisan-about
+{
+    margin-top: 30px;
+}

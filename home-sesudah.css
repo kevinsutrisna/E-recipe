@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-atas
+{
+    height: 75px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.navbar-logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-atas-kanan
+{
+    display: flex;
+    float: left;
+}
+
+.navbar-atas-kanan p
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-atas-kiri
+{
+    float: right;
+    padding-left: 50px;
+}
+
+
+
+.navbar-bawah
+{
+    height: 50px;
+    background-color: rgb(227, 207, 207);
+    line-height: 50px;
+    padding-left: 75px;
+}
+
+
+.navbar-isi
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-kontak
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.navbar-kontak-hover
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+
+.navbar-atas-kiri:hover .navbar-kontak-hover
+{
+    display: inline;
+}
+
+.navbar-isi:hover
+{
+    color: white;
+    transition: 100ms;
+}
+
+.navbar-isi-sekarang{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.home-pertama
+{
+    margin-left: 75px;
+}
+
+.colletions-kunci
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* padding: 0px 10px; */
+    pointer-events: none;
+}
+
+.colletions-kunci:hover
+{
+    color: rgb(255, 0, 0)
+}
+
+.content{
+    width: 100%;
+    display: block;
+    padding-top: 150px;
+}
+
+.content .search_bar {
+    position: relative;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+}
+
+.content .search_bar input {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: #DECFCF;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0 10px 0 45px;
+    padding-left: 50px;
+}
+
+.content .search_bar input::placeholder {
+    color: #ACA3A3;
+}
+
+.content .search_bar .fa-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    color: black;
+    padding-right: 10px;
+}
+
+.content h1 {
+    font-weight:bold;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 180px;
+}
+
+.content .image1 img {
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+}
+
+.content .image1 {
+    text-align: center;
+}
+
+.content .imageFood2 {
+    display: flex;
+    margin: 0% 10%;
+}
+
+.content .imageFood {
+    display: flex;
+    margin: 0% 10%;
+}
+
+.box1 {
+    width: 400px;
+    height: 330px;
+    background-color: #9EF097;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.foodcategory {
+    display: flex;
+    margin: 1% 10%;
+}
+
+.vege img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.vege p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box2 {
+    width: 400px;
+    height: 330px;
+    background-color: #EFDC79;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.fruit img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.fruit p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box3 {
+    width: 400px;
+    height: 330px;
+    background-color: #EF7115;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.legumes img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.legumes p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.foodcategory2 {
+    display: flex;
+    margin: 2% 8.7%;
+}
+
+.box4 {
+    width: 400px;
+    height: 330px;
+    background-color: #F96464;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.meat img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.meat p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box5 {
+    width: 400px;
+    height: 330px;
+    background-color: #6492EC;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.fish img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.fish p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box6 {
+    width: 400px;
+    height: 330px;
+    background-color: #F2DE2A;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.dairy img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.dairy p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.chefs {
+    display: flex;
+    margin: 2% 9%;
+    column-gap: 30px;
+}
+
+.chef1 img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.chef1 p {
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.chef2 img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.chef2 p {
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.chef3 img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.chef3 p {
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.rorim {
+    margin-top: -25px;
+}
+
+.gordon {
+    margin-top: -25px;
+}
+
+.ratna {
+    margin-top: -25px;
+}
+
+.culinary1 {
+    display: flex;
+    margin: 2% 13%;
+    column-gap: 30px;
+}
+
+.about1 img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.date {
+    color: grey;
+}
+
+.culinary2 {
+    display: flex;
+    margin: 2% 13%;
+    column-gap: 30px;
+}
+
+.about2 img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.culinary3 {
+    display: flex;
+    margin: 2% 13%;
+    column-gap: 30px;
+}
+
+.about3 img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.kiriatas{
+    float: left;
+}
+
+.kanan{
+    float: right;
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+.kanan > h5{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #8B8989;
+    position: absolute;
+}
+
+.aboutus, .aboutus1{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.aboutus > h1{
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aboutus > h4{
+    padding-top: 56px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'La Belle Aurore';
+}
+
+.aboutus1 > h5{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.aboutus > img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus1 > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer > h5{
+    font-size: 30px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 207, 207);
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.contactusLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email, .wa, .ig{
+    width: 40px;
+    height: 40px;
+}
+
+/* =============chef 1============================ */
+.content
+{
+   padding-top: 150px;
+}
+
+.kotak-about
+{
+    border: 0.5px solid black;
+}
+
+.gambar-about
+{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+.kotak-about
+{
+    display: flex;
+    padding: 0px 50px;
+    vertical-align: middle;
+}
+
+.tulisan-atas
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.tulisan-tengah
+{
+    font-size: 20px;
+    color: gray;
+}
+.tulisan-bawah
+{
+    font-size: 30px;
+    color: black;
+}
+.tulisan-about
+{
+    margin-top: 30px;
+}

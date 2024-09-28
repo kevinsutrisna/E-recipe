@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-atas
+{
+    height: 75px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.navbar-logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-atas-kanan
+{
+    display: flex;
+    float: left;
+}
+
+.navbar-atas-kanan p
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-atas-kiri
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    float: right;
+    padding-left: 50px;
+}
+
+.navbar-bawah
+{
+    height: 50px;
+    background-color: rgb(227, 207, 207);
+    line-height: 50px;
+    padding-left: 75px;
+}
+
+.navbar-isi
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-isi-sekarang{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-kontak
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.navbar-kontak-hover
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+
+.navbar-atas-kiri:hover .navbar-kontak-hover
+{
+    display: inline;
+}
+
+.navbar-isi:hover
+{
+    color: white;
+    transition: 100ms;
+}
+
+.home-pertama
+{
+    margin-left: 75px;
+}
+
+.colletions-kunci
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* padding: 0px 10px; */
+    pointer-events: none;
+}
+
+.colletions-kunci:hover
+{
+    color: rgb(255, 0, 0)
+}
+
+.chef-profile{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 150px;
+    margin-top: 30px;
+    padding-left: 170px;
+}
+
+
+
+.logoo{
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.chef-content{
+    padding-top: 200px;
+}
+
+.chef-tulis{
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* =============chef 1============================ */
+
+.chef1{
+    outline: auto;
+    width: 300px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px #BFBDBD;
+}
+
+.chef1-old, .chef1-role{
+
+    text-decoration: none;
+}
+.chef1:hover{
+    background-color: #7d7d7d;
+    cursor: pointer;
+    box-shadow: 10px 10px #7d7d7d;
+    transition: 700ms;  
+}
+.link-1
+{
+    text-decoration: none;
+    transform: none;
+    color: black;
+}
+
+.chef1-name{
+    color: black;
+}
+
+.chef1-img:hover{
+    background-color: #7d7d7d;
+    transition: 700ms;
+}
+
+.chef1-backimg{
+    background-color: black;
+}
+
+.chef1 .chef1-backimg{
+    background-color: #D9D9D9;
+    width: 300px;
+    outline: auto;
+    border-radius: 15px;
+}
+
+.chef1-img img{
+    padding: 30px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.chef1-name{
+    justify-content: center;
+    align-items: center;
+    padding-left: 65px;
+    text-decoration: underline;
+}
+
+.chef1-old{
+    padding-left: 100px;
+    font-size: 15px;
+    color: #A5A1A1;
+}
+
+.chef1-role{
+    margin-top: 15px;
+    padding-left: 85px;
+    color: #A5A1A1
+}
+
+/* ========================================= */
+
+/* =============chef 2============================ */
+
+.chef2{
+    outline: auto;
+    width: 320px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px #BFBDBD;
+}
+
+.chef2 .chef2-backimg{
+    background-color: #D9D9D9;
+    width: 320px;
+    outline: auto;
+    border-radius: 15px;
+}
+
+.chef2-img img{
+    padding: 30px;
+    width: 320px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.chef2-name{
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+.chef2-old{
+    padding-left: 115px;
+    font-size: 15px;
+    color: #A5A1A1;
+}
+
+.chef2-role{
+    margin-top: 15px;
+    padding-left: 105px;
+    color: #A5A1A1
+}
+
+/* =============================================== */
+
+/* =============chef 3============================ */
+
+.chef-profile{
+    justify-content: center;
+    align-items: center;
+}
+
+.chef3{
+    outline: auto;
+    width: 320px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px #BFBDBD;
+}
+
+.chef3 .chef3-backimg{
+    background-color: #D9D9D9;
+    width: 320px;
+    outline: auto;
+    border-radius: 15px;
+}
+
+.chef3-img img{
+    padding: 30px;
+    width: 320px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.chef3-name{
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+.chef3-old{
+    padding-left: 120px;
+    font-size: 15px;
+    color: #A5A1A1;
+}
+
+.chef3-role{
+    margin-top: 15px;
+    padding-left: 108px;
+    color: #A5A1A1
+}
+
+/* =============================================== */
+
+.kiriatas{
+    float: left;
+}
+
+.kanan{
+    float: right;
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+.kanan > h5{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #8B8989;
+    position: absolute;
+}
+
+.aboutus, .aboutus1{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.aboutus > h1{
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aboutus > h4{
+    padding-top: 56px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'La Belle Aurore';
+}
+
+.aboutus1 > h5{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.aboutus > img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus1 > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer > h5{
+    font-size: 30px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 207, 207);
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.contactusLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email, .wa, .ig{
+    width: 40px;
+    height: 40px;
+}

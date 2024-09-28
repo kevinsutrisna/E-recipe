@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 100;
+    
+}
+
+.navbar-atas
+{
+    height: 75px;
+    line-height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.navbar-logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-atas-kanan
+{
+    display: flex;
+    float: left;
+}
+
+.navbar-atas-kanan p
+{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-atas-kiri
+{
+    float: right;
+    padding-left: 50px;
+}
+
+
+
+.navbar-bawah
+{
+    height: 50px;
+    background-color: rgb(227, 207, 207);
+    line-height: 50px;
+    padding-left: 75px;
+}
+
+
+.navbar-isi
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.navbar-kontak
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.navbar-kontak-hover
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+
+.navbar-atas-kiri:hover .navbar-kontak-hover
+{
+    display: inline;
+}
+
+.navbar-isi:hover
+{
+    color: white;
+    transition: 100ms;
+}
+
+.home-pertama
+{
+    margin-left: 75px;
+}
+
+.colletions-kunci
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* padding: 0px 10px; */
+    pointer-events: none;
+}
+
+.colletions-kunci:hover
+{
+    color: rgb(255, 0, 0)
+}
+
+.content
+{
+    padding-top: 100px;
+    /* display: block; */
+    /* height: 10000px; */
+    /* border: 1px solid black;
+    background-color: black; */
+}
+.title{
+    font-size: 30px;
+    margin: 50px;
+    margin-left: 100px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.title-logo img{
+    width: 115px;
+}
+
+.chef-bio{
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 100px;
+    display: flex;
+}
+
+.chef-bio .chef-backimg{
+    background-color: rgb(227, 207, 207);
+    width: 600px;
+    height: 70=20px;
+    border-radius: 20px;
+    outline: auto;
+    
+}
+
+.chef-backimg img{
+    padding: 100px;
+    width: 600px;
+    height: 700px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.chef-data p{
+    padding-left: 70px;
+    font-size: 40px;
+}
+
+.chef-desc{
+    padding: 100px;
+    font-size: 30px;
+}
+
+.kiriatas{
+    float: left;
+}
+
+.kanan{
+    float: right;
+    line-height: 40px;
+    margin-right: 150px;
+}
+
+.kanan > h5{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #8B8989;
+    position: absolute;
+}
+
+.aboutus, .aboutus1{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.aboutus > h1{
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aboutus > h4{
+    padding-top: 56px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'La Belle Aurore';
+}
+
+.aboutus1 > h5{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.aboutus > img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 75px;
+    height: 75px;
+}
+
+.aboutus1 > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer > h5{
+    font-size: 30px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 207, 207);
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.contactusLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email, .wa, .ig{
+    width: 40px;
+    height: 40px;
+}
